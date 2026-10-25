@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" fill="none">
+  <defs>
+    <linearGradient id="dbBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#090D16" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="chartGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.0" />
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="50%" stop-color="#0EA5E9" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#0284C7" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Main Container -->
+  <rect x="10" y="10" width="740" height="500" rx="20" fill="url(#dbBg)" stroke="#334155" stroke-width="1.5" filter="url(#shadow)"/>
+
+  <!-- Top Window Bar -->
+  <rect x="10" y="10" width="740" height="48" rx="20" fill="#0A0F1D" />
+  <circle cx="38" cy="34" r="6" fill="#EF4444" opacity="0.85"/>
+  <circle cx="58" cy="34" r="6" fill="#F59E0B" opacity="0.85"/>
+  <circle cx="78" cy="34" r="6" fill="#10B981" opacity="0.85"/>
+
+  <rect x="230" y="24" width="300" height="22" rx="6" fill="#1E293B" />
+  <text x="250" y="39" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8" font-weight="600">
+    🔒 amazon-sellercentral.com/analytics/growth-portfolio
+  </text>
+  <rect x="670" y="24" width="60" height="22" rx="6" fill="#0284C7" opacity="0.2"/>
+  <text x="682" y="39" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#38BDF8" font-weight="700">LIVE</text>
+
+  <!-- Metric Card 1: 30-Day Revenue -->
+  <g transform="translate(36, 76)">
+    <rect width="210" height="96" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8" font-weight="600">30-DAY SALES REVENUE</text>
+    <text x="16" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" fill="#F8FAFC" font-weight="800">$184,920.40</text>
+    <rect x="16" y="68" width="56" height="18" rx="9" fill="#10B981" fill-opacity="0.15"/>
+    <text x="24" y="81" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#34D399" font-weight="700">▲ +34.2%</text>
+    <text x="80" y="81" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#64748B">vs previous mo</text>
+  </g>
+
+  <!-- Metric Card 2: Blended ACOS -->
+  <g transform="translate(266, 76)">
+    <rect width="210" height="96" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8" font-weight="600">TARGET PPC ACOS</text>
+    <text x="16" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" fill="#38BDF8" font-weight="800">14.8%</text>
+    <rect x="16" y="68" width="56" height="18" rx="9" fill="#10B981" fill-opacity="0.15"/>
+    <text x="24" y="81" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#34D399" font-weight="700">▼ -8.6%</text>
+    <text x="80" y="81" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#64748B">Target: &lt; 18%</text>
+  </g>
+
+  <!-- Metric Card 3: ROAS & Organic Rank -->
+  <g transform="translate(496, 76)">
+    <rect width="228" height="96" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#94A3B8" font-weight="600">BUY BOX SHARE / TACOS</text>
+    <text x="16" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" fill="#FBBF24" font-weight="800">99.4% <tspan font-size="15" fill="#94A3B8">/ 7.1%</tspan></text>
+    <rect x="16" y="68" width="94" height="18" rx="9" fill="#F59E0B" fill-opacity="0.15"/>
+    <text x="24" y="81" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#FBBF24" font-weight="700">★ TOP 3 RANK</text>
+  </g>
+
+  <!-- Main Growth Chart Section -->
+  <g transform="translate(36, 192)">
+    <rect width="470" height="290" rx="14" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+    <text x="20" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#F8FAFC" font-weight="700">PPC Scaling &amp; Organic Ranking Velocity</text>
+    <text x="20" y="50" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#64748B">Daily tracked orders across USA &amp; UK Marketplaces</text>
+
+    <!-- Chart Grid lines -->
+    <line x1="20" y1="90" x2="450" y2="90" stroke="#1E293B" stroke-dasharray="4"/>
+    <line x1="20" y1="140" x2="450" y2="140" stroke="#1E293B" stroke-dasharray="4"/>
+    <line x1="20" y1="190" x2="450" y2="190" stroke="#1E293B" stroke-dasharray="4"/>
+    <line x1="20" y1="240" x2="450" y2="240" stroke="#1E293B" />
+
+    <!-- Chart Area Fill -->
+    <path d="M 24 230 C 70 210, 110 220, 150 170 C 190 120, 240 150, 290 110 C 340 70, 390 95, 446 55 L 446 240 L 24 240 Z" fill="url(#chartGrad)"/>
+    
+    <!-- Main Trend Line -->
+    <path d="M 24 230 C 70 210, 110 220, 150 170 C 190 120, 240 150, 290 110 C 340 70, 390 95, 446 55" stroke="url(#lineGrad)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Data Marker Dots -->
+    <circle cx="150" cy="170" r="4.5" fill="#38BDF8" stroke="#0F172A" stroke-width="2"/>
+    <circle cx="290" cy="110" r="4.5" fill="#0EA5E9" stroke="#0F172A" stroke-width="2"/>
+    <circle cx="446" cy="55" r="5" fill="#10B981" stroke="#0F172A" stroke-width="2"/>
+
+    <!-- Tooltip badge at peak -->
+    <g transform="translate(370, 25)">
+      <rect width="80" height="26" rx="6" fill="#0EA5E9"/>
+      <text x="40" y="17" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#FFFFFF" font-weight="700" text-anchor="middle">+1,420 Orders</text>
+    </g>
+
+    <!-- X Axis labels -->
+    <text x="24" y="260" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748B">Day 1</text>
+    <text x="120" y="260" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748B">Day 7</text>
+    <text x="220" y="260" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748B">Day 14</text>
+    <text x="320" y="260" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748B">Day 21</text>
+    <text x="430" y="260" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#64748B">Day 30</text>
+  </g>
+
+  <!-- Side Panel: Amazon Growth Checklist -->
+  <g transform="translate(526, 192)">
+    <rect width="198" height="290" rx="14" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+    <text x="16" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#F8FAFC" font-weight="700">Audit Status</text>
+    
+    <!-- Item 1 -->
+    <g transform="translate(16, 46)">
+      <circle cx="10" cy="10" r="10" fill="#10B981" fill-opacity="0.2"/>
+      <path d="M6 10 L9 13 L14 7" stroke="#34D399" stroke-width="2" stroke-linecap="round"/>
+      <text x="28" y="10" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#F8FAFC" font-weight="600">Brand Registry</text>
+      <text x="28" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">USPTO Active Protection</text>
+    </g>
+
+    <!-- Item 2 -->
+    <g transform="translate(16, 96)">
+      <circle cx="10" cy="10" r="10" fill="#10B981" fill-opacity="0.2"/>
+      <path d="M6 10 L9 13 L14 7" stroke="#34D399" stroke-width="2" stroke-linecap="round"/>
+      <text x="28" y="10" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#F8FAFC" font-weight="600">A+ Content &amp; SEO</text>
+      <text x="28" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">High Conversion Rate</text>
+    </g>
+
+    <!-- Item 3 -->
+    <g transform="translate(16, 146)">
+      <circle cx="10" cy="10" r="10" fill="#10B981" fill-opacity="0.2"/>
+      <path d="M6 10 L9 13 L14 7" stroke="#34D399" stroke-width="2" stroke-linecap="round"/>
+      <text x="28" y="10" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#F8FAFC" font-weight="600">PPC Negative Keywords</text>
+      <text x="28" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">Wasted spend eliminated</text>
+    </g>
+
+    <!-- Item 4 -->
+    <g transform="translate(16, 196)">
+      <circle cx="10" cy="10" r="10" fill="#0284C7" fill-opacity="0.2"/>
+      <path d="M6 10 L9 13 L14 7" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
+      <text x="28" y="10" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#F8FAFC" font-weight="600">FBA Restock Flow</text>
+      <text x="28" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" fill="#94A3B8">Optimal inventory level</text>
+    </g>
+
+    <!-- Live Status Pill -->
+    <g transform="translate(16, 246)">
+      <rect width="166" height="28" rx="14" fill="#0EA5E9" fill-opacity="0.15" stroke="#0284C7" stroke-width="1"/>
+      <circle cx="20" cy="14" r="4" fill="#10B981"/>
+      <text x="32" y="18" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#38BDF8" font-weight="700">Account Health: 100%</text>
+    </g>
+  </g>
+</svg>

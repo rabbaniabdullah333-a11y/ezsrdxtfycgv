@@ -1,0 +1,52 @@
+﻿
+{id:"amazon-private-label",t:"Amazon Private Label",d:"Complete support from product research to launch, advertising and ongoing performance.",items:[
+["Product Research & Validation","Product hunting; demand analysis; competition analysis; profit estimation; keyword research","Find and validate product opportunities using market data and profitability checks.",M5,QT],
+["Supplier Sourcing & Negotiation","Supplier research; Alibaba sourcing; supplier comparison; quotation negotiation; sample coordination","Identify suitable suppliers and support sourcing decisions.",M5,QT],
+["Brand Strategy & Product Launch Planning","Brand name ideas; positioning; launch roadmap; competitor review","Plan the brand and product launch before inventory investment.",M5,QT],
+["Amazon Seller Account Setup","Individual seller account; business seller account; Seller Central configuration; verification guidance","Help prepare and configure an eligible Amazon seller account.",UU,QT],
+["LLC & Business Setup Coordination","LLC formation coordination; EIN guidance; registered agent; business address options; formation documents","Coordinate business setup steps for eligible Amazon sellers.",US,QT],
+["Trademark & Brand Registry","Trademark coordination; brand name search; filing coordination; Brand Registry assistance","Support brand protection steps and Amazon Brand Registry readiness.",UU,QT,"Legal outcomes and registration are not guaranteed."],
+["Listing Creation & SEO","Title; bullet points; product description; backend search terms; keyword placement","Create keyword-relevant listing content designed for clarity and conversion.",M5,QT],
+["Listing Images & Creative Design","Main image; secondary images; infographics; lifestyle images; product video coordination","Create listing creatives aligned with marketplace image requirements.",M5,QT],
+["A+ Content & Brand Story","Standard A+; Premium A+ guidance; brand story graphics","Improve brand presentation with enhanced product detail page content.",M5,QT],
+["Amazon Storefront Design","Store homepage; category pages; navigation; brand visuals","Build a clear branded shopping experience within Amazon Stores.",M5,QT],
+["FBA Shipment & Logistics Support","Shipment plan; carton and label guidance; inbound shipment coordination","Assist with preparing inventory for shipment to Amazon fulfillment centers.",M5,QT],
+["PPC Setup & Management","Auto; Broad; Phrase; Exact; product targeting; campaign structure; bid and budget management","Set up and manage advertising campaigns based on product goals and performance.",M5,"Monthly / "+QT],
+["Inventory & Performance Management","Restock planning; inventory monitoring; sales analysis; profitability review","Monitor operational performance and support inventory decisions.",M5,"Monthly / "+QT]]},
+{id:"llc-formation",t:"LLC Formation",d:"Coordination and guidance for forming your US company.",items:[
+["Texas LLC Formation","Company formation coordination; documents; next-step guidance","Support with Texas LLC formation steps.",US,QT,"State requirements and fees may change."],
+["Florida LLC Formation","Company formation coordination; documents; next-step guidance","Support with Florida LLC formation steps.",US,QT,"State requirements and fees may change."],
+["Wyoming LLC Formation","Company formation coordination; documents; next-step guidance","Support with Wyoming LLC formation steps.",US,QT,"State requirements and fees may change."],
+["EIN Application Assistance","EIN process guidance; application information checklist","Guide clients through the EIN application process.",US,QT],
+["Registered Agent & Business Address","Registered agent options; address and mail-handling options","Explain available registered agent and address options.",US,QT,"Availability depends on provider."],
+["LLC Documents & Compliance Guidance","Articles of Organization; formation records; applicable compliance guidance","Help organize formation documents and understand relevant next steps.",US,QT,"This is not legal or tax advice."]]},
+{id:"trademark-services",t:"Trademark Services",d:"Coordinate US and UK trademark filing and Brand Registry readiness.",items:[
+["USA Trademark Filing & Registration Support","Preliminary search; class guidance; filing coordination; status monitoring; office-action coordination","Coordinate the US trademark process with appropriate professional support where needed.",US,QT,"Registration is subject to USPTO review."],
+["UK Trademark Filing & Registration Support","Preliminary search; class guidance; filing coordination; status monitoring; objection-response coordination","Coordinate the UK trademark process with appropriate professional support where needed.","UK",QT,"Registration is subject to UKIPO review."],
+["Brand Registry Assistance","Brand name search; filing coordination; Brand Registry assistance","Support brand protection steps and Amazon Brand Registry readiness.",UU,QT,"Legal outcomes and registration are not guaranteed."]]},
+{id:"graphics-creative-design",t:"Graphics & Creative Design",d:"Listing visuals, brand identity and marketing assets.",items:[
+["Amazon Listing Images","Main image; secondary images; infographics; lifestyle images","Design product listing visuals with marketplace requirements in mind.",M5,"Per Project / "+QT],
+["A+ Content & Brand Story Design","A+ modules; brand story; product comparison visuals","Design enhanced brand content for eligible listings.",M5,"Per Project / "+QT],
+["Amazon Storefront Graphics","Store banners; category visuals; brand tiles","Create visual assets for Amazon Stores.",M5,"Per Project / "+QT],
+["Brand Identity & Packaging","Logo; color palette; typography; packaging; insert card","Create consistent visual identity and packaging assets.",GL,"Per Project / "+QT],
+["Social Media Graphics & Product Videos","Social posts; banners; promotional creatives; product demo video","Create supporting marketing assets for digital channels.",GL,"Per Project / "+QT]]},
+{id:"amazon-account-reactivation",t:"Amazon Account Reactivation",d:"Review suspensions and prepare clear, evidence-based appeals.",items:[
+["Suspension & Deactivation Review","Notice review; root-cause analysis; policy issue identification","Review the stated issue and map possible corrective actions.",SUP,QT,"Reactivation cannot be guaranteed."],
+["Plan of Action (POA) Assistance","Root cause; corrective actions; preventive measures; appeal preparation","Assist with a clear, evidence-based appeal response.",SUP,QT,"Appeals must be truthful and evidence-based. Reactivation cannot be guaranteed."],
+["Account Health & Verification Support","Account Health review; identity verification guidance; performance notification review","Help identify required steps for account health and verification issues.",SUP,QT],
+["Listing Deactivation & Policy Case Support","Listing issue review; evidence checklist; case follow-up guidance","Assist with investigating listing deactivation and policy-related cases.",SUP,QT]]},
+{id:"amazon-seller-account-creation",t:"Amazon Seller Account Creation",d:"Registration support for USA and UK marketplaces.",items:[
+["Individual Seller Account Creation","Registration checklist; identity verification guidance; Seller Central setup","Assist with individual seller registration where eligible.",UU,QT,"Approval depends on Amazon verification."],
+["Business Seller Account Creation","Business registration details; verification checklist; Seller Central setup","Assist with business seller registration where eligible.",UU,QT,"Approval depends on Amazon verification."]]},
+{id:"bank-payment-setup",t:"Bank & Payment Account Setup",d:"Guidance for Wise and Payoneer setup and Amazon disbursement.",items:[
+["Wise Account Setup Guidance","Eligibility review; registration checklist; verification guidance; Amazon disbursement setup","Guide eligible applicants through Wise setup and payment configuration.","Subject to Wise availability",QT,"Provider approval and availability apply."],
+["Payoneer Account Setup Guidance","Registration checklist; verification guidance; Amazon disbursement setup","Guide eligible applicants through Payoneer setup and payment configuration.","Subject to Payoneer availability",QT,"Provider approval and availability apply."]]},
+{id:"listing-optimization",t:"Listing Optimization",d:"Audit and improve existing listings for relevance and conversion.",items:[
+["Complete Listing Audit","Title; bullets; description; backend keywords; images; A+ content; competitor comparison","Assess the listing and provide prioritized improvement recommendations.",M5,"Per Listing / "+QT],
+["Keyword & SEO Optimization","Keyword research; title and bullet improvements; backend search terms","Improve listing relevance and keyword coverage.",M5,"Per Listing / "+QT],
+["Conversion Rate Optimization","Content clarity; benefit communication; image sequence review; competitor comparison","Recommend listing improvements to support customer conversion.",M5,"Per Listing / "+QT]]},
+{id:"amazon-ppc-audit",t:"Amazon PPC Audit",d:"Find priority opportunities and wasted spend in your advertising.",cta:"Get a PPC Audit",items:[
+["Complete PPC Account Audit","Campaign structure; spend; sales; ACOS; ROAS; TACOS; budgets; bids; placements","Review advertising performance and identify priority optimization opportunities.",M5,"Per Account / "+QT],
+["Keyword & Search Term Analysis","Search term report; match types; converting keywords; negative keyword opportunities","Identify useful search terms and areas of inefficient spend.",M5,"Per Account / "+QT],
+["Wasted Spend & Targeting Review","Clicks without orders; irrelevant terms; ASIN targeting; category targeting; bid and budget review","Identify potential wasted spend and targeting improvements.",M5,"Per Account / "+QT]]}
+

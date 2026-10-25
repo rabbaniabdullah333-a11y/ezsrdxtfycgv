@@ -1,0 +1,332 @@
+/* ==========================================================================
+   ApexScale Commerce — Premium Motion & Animation System v2.0
+   Advanced Illumination Animations, Micro-interactions & Entrance Effects
+   ========================================================================== */
+
+/* ==========================================================================
+   Core Keyframes
+   ========================================================================== */
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes slideUpFade {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDownFade {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideLeftFade {
+  from { opacity: 0; transform: translateX(-30px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideRightFade {
+  from { opacity: 0; transform: translateX(30px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes scaleFade {
+  from { opacity: 0; transform: scale(0.92); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes scaleIn {
+  from { transform: scale(0); }
+  to { transform: scale(1); }
+}
+
+/* ==========================================================================
+   Continuous Loop Animations
+   ========================================================================== */
+
+/* Gentle floating bob */
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Pulse glow ring */
+@keyframes pulseDot {
+  0%, 100% { transform: scale(0.9); opacity: 1; box-shadow: 0 0 0 0 rgba(52, 211, 153, 0.6); }
+  50% { transform: scale(1.1); opacity: 0.85; box-shadow: 0 0 0 6px rgba(52, 211, 153, 0); }
+}
+
+/* Ambient glow breathing */
+@keyframes glowBreathe {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.05); }
+}
+
+/* Shimmer sweep for primary actions */
+@keyframes shimmerSweep {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Gradient color shift */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Orbiting particle */
+@keyframes orbit {
+  from { transform: rotate(0deg) translateX(80px) rotate(0deg); }
+  to { transform: rotate(360deg) translateX(80px) rotate(-360deg); }
+}
+
+/* Floating light particles */
+@keyframes particleFloat {
+  0% { transform: translateY(0) rotate(0deg); opacity: 0; }
+  10% { opacity: 0.6; }
+  90% { opacity: 0.4; }
+  100% { transform: translateY(-120px) rotate(360deg); opacity: 0; }
+}
+
+/* Horizontal scan line */
+@keyframes scanLine {
+  0% { top: 0%; }
+  100% { top: 100%; }
+}
+
+/* Border glow rotation */
+@keyframes borderGlowRotate {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Counter pop in */
+@keyframes counterPop {
+  0% { transform: scale(0.5); opacity: 0; }
+  80% { transform: scale(1.08); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* WhatsApp button float */
+@keyframes waFloatPulse {
+  0%, 100% { box-shadow: 0 8px 30px rgba(37, 211, 102, 0.45), 0 0 0 0 rgba(37, 211, 102, 0.3); }
+  50% { box-shadow: 0 8px 30px rgba(37, 211, 102, 0.45), 0 0 0 10px rgba(37, 211, 102, 0); }
+}
+
+/* Text typing cursor blink */
+@keyframes cursorBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Staggered grid reveal  */
+@keyframes gridReveal {
+  from { opacity: 0; transform: translateY(20px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Neon border flicker (very subtle) */
+@keyframes neonFlicker {
+  0%, 100% { opacity: 1; }
+  92% { opacity: 1; }
+  93% { opacity: 0.8; }
+  94% { opacity: 1; }
+  96% { opacity: 0.9; }
+  97% { opacity: 1; }
+}
+
+/* ==========================================================================
+   Hero Section Entrance Animations
+   ========================================================================== */
+
+.hero-content > * {
+  opacity: 0;
+  animation: slideUpFade 0.85s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.hero-badge-wrap    { animation-delay: 0.05s; }
+.hero-title         { animation-delay: 0.18s; }
+.hero-desc          { animation-delay: 0.30s; }
+.hero-actions       { animation-delay: 0.42s; }
+.hero-stats-row     { animation-delay: 0.55s; }
+
+.hero-visual-card {
+  opacity: 0;
+  animation: slideLeftFade 1s cubic-bezier(0.16, 1, 0.3, 1) 0.28s forwards;
+}
+
+/* Page header animations */
+.page-header .breadcrumb {
+  animation: slideDownFade 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.05s both;
+}
+
+.page-header .page-title {
+  animation: slideUpFade 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.12s both;
+}
+
+.page-header .page-subtitle {
+  animation: slideUpFade 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.22s both;
+}
+
+/* ==========================================================================
+   Button Micro-interactions
+   ========================================================================== */
+
+.btn:active {
+  transform: scale(0.97) translateY(1px);
+}
+
+/* Shimmer sweep on primary button hover */
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.25), transparent);
+  transform: skewX(-20deg);
+  transition: left 0.65s ease;
+}
+
+.btn-primary:hover::after {
+  left: 220%;
+}
+
+/* ==========================================================================
+   Service Card Hover Illumination
+   ========================================================================== */
+
+/* Staggered reveal for grid children using JS-added classes */
+.service-card.reveal-delay-1 { transition-delay: 0.08s; }
+.service-card.reveal-delay-2 { transition-delay: 0.16s; }
+.service-card.reveal-delay-3 { transition-delay: 0.24s; }
+
+/* ==========================================================================
+   Navigation Hover Glow Effects
+   ========================================================================== */
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -6px;
+  right: -6px;
+  bottom: -4px;
+  border-radius: var(--radius-sm);
+  background: rgba(6, 182, 212, 0.05);
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+}
+
+.nav-link:hover::before {
+  opacity: 1;
+}
+
+/* ==========================================================================
+   Floating Elements
+   ========================================================================== */
+
+.floating-pill {
+  animation: pillFloat 4s ease-in-out infinite;
+}
+
+.floating-pill.pill-bottom-right {
+  animation-delay: 2.2s;
+}
+
+@keyframes pillFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-7px); }
+}
+
+/* ==========================================================================
+   Section Reveal Animations (IntersectionObserver driven)
+   ========================================================================== */
+
+.reveal,
+.reveal-left,
+.reveal-right,
+.reveal-scale {
+  will-change: opacity, transform;
+}
+
+/* ==========================================================================
+   Ambient Particle System (CSS-only)
+   Background decorative particles
+   ========================================================================== */
+
+.hero::before {
+  animation: glowBreathe 8s ease-in-out infinite;
+}
+
+/* ==========================================================================
+   Loading / Skeleton States
+   ========================================================================== */
+
+@keyframes skeletonPulse {
+  0% { background-position: -200px 0; }
+  100% { background-position: calc(200px + 100%) 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--bg-surface) 25%, var(--bg-surface-elevated) 50%, var(--bg-surface) 75%);
+  background-size: 400px 100%;
+  animation: skeletonPulse 1.5s ease-in-out infinite;
+  border-radius: var(--radius-sm);
+}
+
+/* ==========================================================================
+   Reduced Motion — Accessibility
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal,
+  .reveal-left,
+  .reveal-right,
+  .reveal-scale {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .hero-content > * {
+    opacity: 1;
+    animation: none;
+  }
+
+  .hero-visual-card {
+    opacity: 1;
+    animation: none;
+  }
+
+  .floating-pill,
+  .chatbot-full-robot-img,
+  .chatbot-roam-track,
+  .robot-character-wrap,
+  .floating-whatsapp {
+    animation: none !important;
+  }
+}

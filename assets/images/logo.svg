@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" fill="none">
+  <defs>
+    <linearGradient id="apexGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="50%" stop-color="#0EA5E9" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="apexAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0EA5E9" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Logo Mark -->
+  <g transform="translate(4, 6)" filter="url(#glow)">
+    <!-- Base geometric container -->
+    <rect x="0" y="0" width="52" height="52" rx="14" fill="#0B132B" stroke="#1E293B" stroke-width="1.5"/>
+    
+    <!-- Dynamic Peak & Ascending Scale Arrows -->
+    <path d="M12 38 L24 16 L33 27 L41 14" stroke="url(#apexGrad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Growth Arrow Head -->
+    <path d="M34 14 H41 V21" stroke="url(#apexGrad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Subtle Amazon Scale Arc -->
+    <path d="M13 39 C 22 45, 34 45, 41 38" stroke="#F59E0B" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M39 36 L43 38.5 L40 42" fill="#F59E0B"/>
+    
+    <!-- Central Node Point -->
+    <circle cx="24" cy="16" r="2.5" fill="#38BDF8"/>
+    <circle cx="33" cy="27" r="2.5" fill="#10B981"/>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(68, 14)">
+    <text x="0" y="24" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="23" font-weight="800" fill="#0F172A" letter-spacing="-0.5">
+      Apex<tspan fill="url(#apexGrad)">Scale</tspan>
+    </text>
+    <text x="1" y="38" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="8.5" font-weight="700" fill="#64748B" letter-spacing="3.2">
+      COMMERCE PARTNERS
+    </text>
+  </g>
+</svg>

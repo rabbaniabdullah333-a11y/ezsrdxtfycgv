@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" fill="none">
+  <defs>
+    <linearGradient id="apexGradW" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+    <filter id="glowW" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0284C7" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Logo Mark -->
+  <g transform="translate(4, 6)" filter="url(#glowW)">
+    <!-- Base geometric container -->
+    <rect x="0" y="0" width="52" height="52" rx="14" fill="#0A0F1D" stroke="#334155" stroke-width="1.5"/>
+    
+    <!-- Dynamic Peak & Ascending Scale Arrows -->
+    <path d="M12 38 L24 16 L33 27 L41 14" stroke="url(#apexGradW)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Growth Arrow Head -->
+    <path d="M34 14 H41 V21" stroke="url(#apexGradW)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Subtle Amazon Scale Arc -->
+    <path d="M13 39 C 22 45, 34 45, 41 38" stroke="#FBBF24" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M39 36 L43 38.5 L40 42" fill="#FBBF24"/>
+    
+    <!-- Central Node Point -->
+    <circle cx="24" cy="16" r="2.5" fill="#38BDF8"/>
+    <circle cx="33" cy="27" r="2.5" fill="#34D399"/>
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(68, 14)">
+    <text x="0" y="24" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="23" font-weight="800" fill="#F8FAFC" letter-spacing="-0.5">
+      Apex<tspan fill="url(#apexGradW)">Scale</tspan>
+    </text>
+    <text x="1" y="38" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="8.5" font-weight="700" fill="#94A3B8" letter-spacing="3.2">
+      COMMERCE PARTNERS
+    </text>
+  </g>
+</svg>
